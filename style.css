@@ -14,7 +14,6 @@
 
 .header {
     height: 800px;
-    /* padding-top: 63px; */
     background: url("img/slider-img.jpg");
     overflow: auto;
 }
@@ -30,7 +29,6 @@
     list-style-type: none;   
     margin-right: 167px;
     margin-top: 50px; /* 67 - 17 from lineheight */
-    
 }
 
 .menu > li {
@@ -66,30 +64,28 @@
     width: 500px;
 }
 
-.header-text > h3 {
-    color:  #43a047;
+.h3-desc {
     margin: 0 0;
     font-size: 18px;
     font-weight: 700;
 }
 
-.header-text > h1 {
+.h1-desc {
     color:  #212121;
-    margin: 18px 0 0 0;
+    margin: 10px 0 0 0;
     font-size: 62px;
     font-weight: 100;
-    line-height: 72px;
 }
 
-.header-text > p, .deals-text > p {
+.p-desc {
     color:  #6c6c6c;
-    margin: 34px 0 0 0;
+    margin: 15px 0 0 0;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
 }
 
-.header-text > a, .promo a, .deals-text > a, .main-example-text > a {
+.a-desc {
     text-decoration: none;
     color:  #212121;
     margin: 30px 0 0 0;
@@ -104,14 +100,18 @@
     border-radius: 22px;
 }
 
-.header-text > a:hover, .promo a:hover, .deals-text > a:hover, .main-example-text > a:hover {
+.a-desc:hover {
     background: white url("img/arrow.png") no-repeat;
     background-position-x: 173px;
-    background-position-y: 16px;    
+    background-position-y: 16px;  
 }
 
-.slider {
-    margin-top: 100px;
+.header-text > h3 {
+    color:  #43a047;
+}
+
+.header .slider {
+    margin-top: 120px;
     margin-left: 623px;
 }
 
@@ -130,7 +130,7 @@
     float: left;
 }
 
-.featured-content > a, .trending-content > a {
+.explore-href {
     text-decoration: none;
     float: right;
     background: url("img/arrow.png");
@@ -175,7 +175,6 @@
 
 .promo {
     height: 683px;
-
 }
 
 .first-item-wrapper {
@@ -204,9 +203,6 @@
 
 .promo h3 {
     color:  #1e88e5;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 48px;
 }
 
 .promo h1 {
@@ -215,20 +211,13 @@
     font-weight: 700;
 }
 
-.promo p {
-    color:  #6c6c6c;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    margin-top: 10px;
-}
-
 .trending {
     height: 1108px;
     background-color: white;
 }
 
 .trending-content {
+    float: left;
     margin-top: 129px;
     margin-left: 98px;   
 }
@@ -254,8 +243,9 @@
 }
 
 .trending-items li {
-    display: inline;
+    float: left;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .deals {
@@ -271,20 +261,10 @@
 
 .deals-text > h3 {
     color:  #e53935;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 48px;
-}
-
-.deals-text > h1 {
-    color:  #212121;
-    font-size: 62px;
-    font-weight: 100;
-    line-height: 72px;
 }
 
 .deals .slider {
-    margin-top: 186px;
+    margin-top: 210px;
     margin-left: 623px;
     clear: both;
     float: left;
@@ -314,23 +294,13 @@
 }
 
 .main-example-text h3 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 48px;
     color:  #1e88e5;
 }
 
-.main-example-text h1 {
+.main-example-text .h1-desc {
     color:  #212121;
     font-size: 36px;
-    font-weight: 700
-}
-
-.main-example-text p {
-    color:  #6c6c6c;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
+    font-weight: 700;
 }
 
 .small-examples {
@@ -362,27 +332,15 @@
 
 .follow-text > h3 {
     color:  #6c6c6c;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 48px;
 }
 
-.follow-text > h1 {
-    color:  #212121;
-    font-size: 62px;
-    font-weight: 100;
-    line-height: 72px;
-}
-
-.follow-text > p {
-    color:  #6c6c6c;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 24px;
+.follow-text .h1-desc, .follow-text .p-desc {
+    margin: 0;
 }
 
 .follow-text > ul {
     list-style-type: none;
+    margin-top: 0px;
 }
 
 .follow-text li {
