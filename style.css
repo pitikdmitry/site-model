@@ -55,6 +55,10 @@
     padding-top: 10px;
 }
 
+.menu li:last-child:hover {
+    border-bottom: 0px solid black;
+}
+
 .header-text {
     clear: both;
     margin-top: 373px;
@@ -85,7 +89,7 @@
     line-height: 24px;
 }
 
-.header-text > a, .promo a, .deals-text > a {
+.header-text > a, .promo a, .deals-text > a, .main-example-text > a {
     text-decoration: none;
     color:  #212121;
     margin: 30px 0 0 0;
@@ -100,10 +104,8 @@
     border-radius: 22px;
 }
 
-.header-text > a:hover, .promo a:hover, .deals-text > a:hover {
-    background: url("img/arrow.png");
-    background-color: white;    
-    background-repeat: no-repeat;
+.header-text > a:hover, .promo a:hover, .deals-text > a:hover, .main-example-text > a:hover {
+    background: white url("img/arrow.png") no-repeat;
     background-position-x: 173px;
     background-position-y: 16px;    
 }
@@ -258,11 +260,13 @@
 
 .deals {
     height: 800px;
+    background-image: url("img/slider.jpg");
 }
 
 .deals-text {
     margin-top: 287px;
     margin-left: 99px;
+    float: left;
 }
 
 .deals-text > h3 {
@@ -279,26 +283,54 @@
     line-height: 72px;
 }
 
-.slider {
-    margin-top: 100px;
+.deals .slider {
+    margin-top: 186px;
     margin-left: 623px;
+    clear: both;
+    float: left;
 }
 
 .examples {
     height: 810px;
+    background-color: white;
 }
 
 .examples-content {
+    float: left;
     margin-top: 120px;
     margin-left: 98px;
-    height: 800px;
 }
 
 .main-example {
     float: left;
     width: 570px;
     height: 570px;
-    background-image: url("");
+    background-image: url("img/product-1-lg.jpg");
+}
+
+.main-example-text {
+    margin-top: 186px;
+    margin-left: 31px;
+}
+
+.main-example-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    color:  #1e88e5;
+}
+
+.main-example-text h1 {
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700
+}
+
+.main-example-text p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
 }
 
 .small-examples {
@@ -313,12 +345,17 @@
     margin-bottom: 30px;
 }
 
+.examples-content .second-row li {
+    margin-bottom: 0px;
+}
+
 .follow {
     height: 516px;
-    background-image: url("");
+    background-image: url("img/back-img (1).jpg");
 }
 
 .follow-text {
+    float: left;
     margin-top: 125px;
     margin-left: 99px;
 }
@@ -377,6 +414,7 @@
 
 .contact-menu > li:last-child {
     padding-right: 0px;
+
 }
 
 .footer-content h3 {
@@ -411,4 +449,24 @@
 
 .useful-info-menu > li:last-child {
     padding-right: 0px;
+}
+
+.contact-menu input {
+    border: 1px solid #d9dee1;
+    background-color:  #ffffff;
+    width: 368px;
+    height: 46px;
+}
+
+.copyright-container {
+    list-style-type: none;
+
+}
+
+.copyright-container > li {
+    float: left;
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
 }
