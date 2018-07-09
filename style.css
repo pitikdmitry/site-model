@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    height: 800px;
+    /* padding-top: 63px; */
+    background: url("img/slider-img.jpg");
+    overflow: auto;
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+    float: left;    
+}
+
+.menu {
+    float: right;
+    list-style-type: none;   
+    margin-right: 167px;
+    margin-top: 50px; /* 67 - 17 from lineheight */
+    
+}
+
+.menu > li {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.menu > li:hover {
+    color:  #212121;
+    font-weight: 700;
+    line-height: 48px;
+    border-bottom: 3px solid black;
+}
+
+.menu li:last-child {
+    padding-left: 6px;
+    padding-top: 10px;
+}
+
+.header-text {
+    clear: both;
+    margin-top: 373px;
+    margin-left: 98px;
+    width: 500px;
+}
+
+.header-text > h3 {
+    color:  #43a047;
+    margin: 0 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-text > h1 {
+    color:  #212121;
+    margin: 18px 0 0 0;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+}
+
+.header-text > p, .deals-text > p {
+    color:  #6c6c6c;
+    margin: 34px 0 0 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.header-text > a, .promo a, .deals-text > a {
+    text-decoration: none;
+    color:  #212121;
+    margin: 30px 0 0 0;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;    
+    width: 212px;
+    height: 45px;
+    line-height: 45px;    
+    text-align: center;    
+    background: white;
+    border-radius: 22px;
+}
+
+.header-text > a:hover, .promo a:hover, .deals-text > a:hover {
+    background: url("img/arrow.png");
+    background-color: white;    
+    background-repeat: no-repeat;
+    background-position-x: 173px;
+    background-position-y: 16px;    
+}
+
+.slider {
+    margin-top: 100px;
+    margin-left: 623px;
+}
+
+.featured {
+    height: 500px;
+    background-color: white;
+}
+
+.featured-content {
+    margin-top: 120px;
+    margin-left: 98px;   
+}
+
+.featured-content > .featured-menu {
+    list-style-type: none; 
+    float: left;
+}
+
+.featured-content > a, .trending-content > a {
+    text-decoration: none;
+    float: right;
+    background: url("img/arrow.png");
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    margin-right: 97px;
+    margin-top: 18px;
+    display: block;
+    width: 169px;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    background-position-y: 5px; 
+}
+
+.featured-menu li {
+    display: inline;
+    color:  #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 7px;
+    padding-right: 24px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.featured-menu li:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.featured-items {
+    clear: both;
+    float: left;
+    list-style-type: none; 
+    margin-top: 50px;
+}
+
+.featured-items li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.promo {
+    height: 683px;
+
+}
+
+.first-item-wrapper {
+    background-image: url("img/promo-img1.jpg");
+    height: 683px;
+    width: 50%;
+    float: left;
+}
+
+.first-item {
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.second-item-wrapper {
+    background-image: url("img/promo-img.jpg");
+    height: 683px;
+    width: 50%;
+    float: left;
+}
+
+.second-item {
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.promo h3 {
+    color:  #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.promo h1 {
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.promo p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.trending {
+    height: 1108px;
+    background-color: white;
+}
+
+.trending-content {
+    margin-top: 129px;
+    margin-left: 98px;   
+}
+
+.trending-content > .trending-menu {
+    list-style-type: none; 
+    margin-bottom: 50px;
+    float: left;
+}
+
+.trending-content > h1 {
+    color:  #212121;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+}
+
+.trending-items {
+    clear: both;
+    float: left;
+    margin-top: 64px;
+    list-style-type: none;     
+}
+
+.trending-items li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.deals {
+    height: 800px;
+}
+
+.deals-text {
+    margin-top: 287px;
+    margin-left: 99px;
+}
+
+.deals-text > h3 {
+    color:  #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.deals-text > h1 {
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+}
+
+.slider {
+    margin-top: 100px;
+    margin-left: 623px;
+}
+
+.examples {
+    height: 810px;
+}
+
+.examples-content {
+    margin-top: 120px;
+    margin-left: 98px;
+}
+
+.main-example {
+    float: left;
+    width: 570px;
+    height: 570px;
+    background-image: url("");
+}
+
+.examples-content > ul {
+    float: left;
+    margin-left: 30px;
+}
+
+.examples-content li {
+    float: left;
+    list-style-type: none; 
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
