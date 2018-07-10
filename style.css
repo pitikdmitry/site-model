@@ -173,6 +173,10 @@
     margin-right: 15px;
 }
 
+.featured-items a:hover>img {
+    opacity: 0.3;
+}
+
 .promo {
     height: 683px;
 }
@@ -380,6 +384,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+    margin-bottom: 20px;
 }
 
 .footer-content p {
@@ -414,11 +419,13 @@
     background-color:  #ffffff;
     width: 368px;
     height: 46px;
+    margin-top: 20px;
 }
 
 .copyright-container {
+    margin-top: 35px;
     list-style-type: none;
-
+    float: left;
 }
 
 .copyright-container > li {
@@ -427,4 +434,9 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 26px;
+    padding-right: 180px;
+}
+
+.copyright-container > li:last-child {
+    padding-right: 0px;
 }
