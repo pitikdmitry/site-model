@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    height: 360px;
+    width: 1366px;
+    background-color:  #f5f5f5;
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+    float: left;    
+}
+
+.header .menu {
+    float: right;
+    list-style-type: none;   
+    margin-right: 167px;
+    margin-top: 50px; /* 67 - 17 from lineheight */
+}
+
+.header .menu > li {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.header .menu > li:hover {
+    color:  #212121;
+    font-weight: 700;
+    line-height: 48px;
+    border-bottom: 3px solid black;
+}
+
+.header .menu li:last-child {
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.header .menu li:last-child:hover {
+    border-bottom: 0px solid black;
+}
+
+.header > h1 {
+    clear: both;
+    float: left;
+    margin-top: 151px;
+    margin-left: 101px;
+    color:  #212121;
+    font-size: 62px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px;/* Приближение из-за подстановки шрифтов */
+}
+
+.main > .main-content {
+    margin-top: 71px;    
+    margin-left: 98px;
+    float: left;
+    height: 563px;
+}
+
+.main > main.content > address > h2 {
+    color:  #212121;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+}
+
+.main > .main-content > .address {
+    border: 1px solid #9c9c9c;
+    float: left;
+    width: 370px;
+    height: 370px;
+    text-align: center;
+}
+
+.main > .main-content > .address > img {
+    margin-top: 48px;
+}
+
+.main > .main-content > .address > h2 {
+    margin-top: 24px;
+    color:  #212121;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+}
+
+.main > .main-content > .address > h5 {
+    color:  #6c6c6c;
+    margin-top: 13px;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.main > .main-content > .address > h6 {
+    color:  #212121;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20.082px;/* Приближение из-за подстановки шрифтов */
+}
+
+.main > .main-contentt > .address > p {
+    color:  #6c6c6c;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20px;/* Приближение из-за подстановки шрифтов */
+}
+
+.a-desc {
+    text-decoration: none;
+    color:  white;
+    margin: 30px 0 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    display: block;    
+    width: 510px;
+    height: 71px;
+    line-height: 71px;    
+    text-align: center;    
+    background: #f44336;
+    border-radius: 35px;
+}
+
+.a-desc:hover {
+    background: #f44336 url("img/arrow-white.png") no-repeat;
+    background-position-x: 334px;
+    background-position-y: 23px;  
+}
+
+.explore-href {
+    text-decoration: none;
+    float: right;
+    background: url("img/arrow.png");
+    background-repeat: no-repeat;
+    background-position-x: 160px;
+    margin-right: 97px;
+    margin-top: 18px;
+    display: block;
+    width: 169px;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    background-position-y: 5px; 
+}
+
+.footer {
+    clear: both;
+    background-color:  #f4f4f4;
+    height: 384px;
+
+}
+
+.footer-content {
+    margin-top: 120px;
+    margin-left: 99px;
+    float: left;    
+}
+
+.footer-content ul {
+    list-style-type: none;
+}
+
+.contact-menu > li {
+    float: left;
+    padding-right: 80px;
+}
+
+.contact-menu > li:last-child {
+    padding-right: 0px;
+}
+
+.footer-content h3 {
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.useful-info-menu > li {
+    float: left;
+}
+
+.useful-info-menu a {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.useful-info-menu > li {
+    padding-right: 103px;
+}
+
+.useful-info-menu > li:last-child {
+    padding-right: 0px;
+}
+
+.contact-menu input {
+    border: 1px solid #d9dee1;
+    background-color:  #ffffff;
+    width: 368px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+.copyright-container {
+    margin-top: 35px;
+    list-style-type: none;
+    float: left;
+}
+
+.copyright-container > li {
+    float: left;
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-right: 180px;
+}
+
+.copyright-container > li:last-child {
+    padding-right: 0px;
+}
